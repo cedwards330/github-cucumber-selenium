@@ -2,7 +2,10 @@ package com.m2at.enums;
 
 public enum Waits {
 	
-	EXPLICIT_WAIT(10l);
+	EXPLICIT_WAIT(10l),
+	SLEEP_ONE_SEC(1000L),
+	SLEEP_TWO_SEC(2000L);
+	
 	
 	private long waitTime;
 	
